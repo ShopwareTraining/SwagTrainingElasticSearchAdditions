@@ -1,0 +1,40 @@
+{
+  "name": "swag-training/shopware6-elasticsearch-additions",
+  "description": "Example of customizing ElasticSearch data",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "SwagTraining"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\ElasticSearchAdditions\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\ElasticSearchAdditions\\SwagTrainingElasticSearchAdditions",
+    "copyright": "SwagTraining",
+    "label": {
+      "de-DE": "SwagTrainingElasticSearchAdditions",
+      "en-GB": "SwagTrainingElasticSearchAdditions"
+    },
+    "description": {
+      "de-DE": "Example of customizing ElasticSearch data",
+      "en-GB": "Example of customizing ElasticSearch data"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    },
+    "supportLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    }
+  }
+}
